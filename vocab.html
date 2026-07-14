@@ -17,205 +17,265 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarScroll">
-      <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+      <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 200px;">
         <li class="nav-item">
-          <a class="nav-link " href="#">vocabolario</a>
+          <a class="nav-link" href="#">vocabolario</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">grammatiche</a>
+          <a class="nav-link" href="gramm.html">grammatiche</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="conju.html">coniugazioni</a>
         </li>
-      
       </ul>
-      
     </div>
   </div>
 </nav>
-    <!-- Contenu ici -->
-    <div class="container">
-        <h1 class="text-center mt-5 text-danger">Vocabolario</h1>
 
+<!-- Contenu ici -->
+<div class="container">
+    <h1 class="text-center mt-5 text-danger">Vocabolario</h1>
+</div>
 
+<div class="container text-center mt-5">
+  <!-- UN SEUL accordéon pour les deux colonnes -->
+  <div class="accordion accordion-flush" id="accordionUnique">
+    <div class="row">
+      <div class="col-md-6">
+        <!-- Item 1 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed bg-success text-light" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              <h5>L'alphabet – L'alphabeto</h5>
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionUnique">
+            <div class="accordion-body">
+              <div class="table-responsive">
+                <table class="table table-bordered table-sm table-letters">
+                  <thead>
+                    <tr>
+                      <th>Lettera</th>
+                      <th>Pronuncia</th>
+                      <th>Lettera</th>
+                      <th>Pronuncia</th>
+                      <th>Lettera</th>
+                      <th>Pronuncia</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td class="letter">A</td>
+                      <td class="pronunciation">a</td>
+                      <td class="letter">M</td>
+                      <td class="pronunciation">èmmé</td>
+                      <td class="letter">Y</td>
+                      <td class="pronunciation">ipsilon, i greca</td>
+                    </tr>
+                    <tr>
+                      <td class="letter">B</td>
+                      <td class="pronunciation">bi</td>
+                      <td class="letter">N</td>
+                      <td class="pronunciation">ènné</td>
+                      <td class="letter">Z</td>
+                      <td class="pronunciation">dzèta</td>
+                    </tr>
+                    <tr>
+                      <td class="letter">C</td>
+                      <td class="pronunciation">tchi</td>
+                      <td class="letter">O</td>
+                      <td class="pronunciation">o</td>
+                      <td class="letter">J</td>
+                      <td class="pronunciation">i lunga</td>
+                    </tr>
+                    <tr>
+                      <td class="letter">D</td>
+                      <td class="pronunciation">di</td>
+                      <td class="letter">P</td>
+                      <td class="pronunciation">pi</td>
+                      <td class="letter">K</td>
+                      <td class="pronunciation">cappa</td>
+                    </tr>
+                    <tr>
+                      <td class="letter">E</td>
+                      <td class="pronunciation">é</td>
+                      <td class="letter">Q</td>
+                      <td class="pronunciation">cou</td>
+                      <td class="letter">W</td>
+                      <td class="pronunciation">doppia vi (ou) vou</td>
+                    </tr>
+                    <tr>
+                      <td class="letter">F</td>
+                      <td class="pronunciation">èffé</td>
+                      <td class="letter">R</td>
+                      <td class="pronunciation">èrré</td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td class="letter">G</td>
+                      <td class="pronunciation">dji</td>
+                      <td class="letter">S</td>
+                      <td class="pronunciation">èssé</td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td class="letter">H</td>
+                      <td class="pronunciation">acca</td>
+                      <td class="letter">T</td>
+                      <td class="pronunciation">ti</td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td class="letter">I</td>
+                      <td class="pronunciation">i</td>
+                      <td class="letter">U</td>
+                      <td class="pronunciation">ou</td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td class="letter">L</td>
+                      <td class="pronunciation">èllé</td>
+                      <td class="letter">V</td>
+                      <td class="pronunciation">vi (ou) vou</td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Item 2 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed bg-success text-light" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              <h5>les chiffres - I numeri</h5>
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionUnique">
+            <div class="accordion-body">
+              <ul class="list-group">
+                <li class="list-group-item"> 0.zero</li>
+              </ul>
+                <ol class="list-group list-group-numbered">
+                <li class="list-group-item">uno</li>
+                <li class="list-group-item">due</li>
+                <li class="list-group-item">tre</li>
+                <li class="list-group-item">quattro</li>
+                <li class="list-group-item">cinque</li>
+                <li class="list-group-item">sei</li>
+                <li class="list-group-item">sette</li>
+                <li class="list-group-item">otto</li>
+                <li class="list-group-item">nove</li>
+                <li class="list-group-item">dieci</li>
+                <li class="list-group-item">undici</li>
+                <li class="list-group-item">dodici</li>
+                <li class="list-group-item">tredici</li>
+                <li class="list-group-item">quattordici</li>
+                <li class="list-group-item">quindici</li>
+                <li class="list-group-item">sedici</li>
+                <li class="list-group-item">diciasette</li>
+                <li class="list-group-item">diciotto</li>
+                <li class="list-group-item">diciannove</li>
+                <li class="list-group-item">venti</li>
+                <li class="list-group-item">ventuno</li>
+                <li class="list-group-item">ventidue</li>
+                <li class="list-group-item">ventitre</li>
+                <li class="list-group-item">ventiquattro</li>
+                <li class="list-group-item">venticinque</li>
+                <li class="list-group-item">ventisei</li>
+                <li class="list-group-item">ventisette</li>
+                <li class="list-group-item">ventotto</li>
+                <li class="list-group-item">ventinove</li>
+                <li class="list-group-item">trenta</li>
+                </ol>
+                <ul class="list-group">
+                <li class="list-group-item">40. quaranta</li>
+                <li class="list-group-item">50. cinquanta</li>
+                <li class="list-group-item">60. sessanta</li>
+                <li class="list-group-item">70. settanta</li>
+                <li class="list-group-item">80. ottanta</li>
+                <li class="list-group-item">90. novanta</li>
+                <li class="list-group-item">100. cento</li>
+                <li class="list-group-item">1000. mille</li>
+                <li class="list-group-item">10 000. diecimila</li>
+                <li class="list-group-item">100 000. centomila</li>
+                <li class="list-group-item">1 000 000. un milione</li>
+              </ul>
+              <ul class="list-group">
+  
+  <li class="list-group-item">101. centouno</li>
+  <li class="list-group-item">123. centoventitré</li>
+  <li class="list-group-item">285. duecentottantacinque</li>
+   <li class="list-group-item">1001. milleuno</li>
+  <li class="list-group-item">1987. millenovecentottantasette</li>
+  <li class="list-group-item">2000. duemila</li>
+   <li class="list-group-item">30 000. trentamila</li>
+   <li class="list-group-item">400 000. quattrocentomila</li>
+   <li class="list-group-item">6 000 000. sei milioni</li>
+</ul>
+                            </div>
+          </div>
+        </div>
+        <!-- Item 3 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed bg-success text-light" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              <h5>Accordion Item #3</h5>
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionUnique">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+          </div>
+        </div>
       </div>
 
-    <div class="container text-center mt-5">
-  <div class="row">
-    <div class="col-md-6">
-<div class="accordion accordion-flush" id="accordionFlushExample">
-  <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-        L’alphabet – L’alphabeto
-      </button>
-    </h2>
-    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">
-        
-        <div class="table-responsive">
-        <table class="table table-bordered table-sm table-letters">
-            <thead>
-                <tr>
-                    <th>Lettera</th>
-                    <th>Pronuncia</th>
-                    <th>Lettera</th>
-                    <th>Pronuncia</th>
-                    <th>Lettera</th>
-                    <th>Pronuncia</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td class="letter">A</td>
-                    <td class="pronunciation">a</td>
-                    <td class="letter">M</td>
-                    <td class="pronunciation">èmmé</td>
-                    <td class="letter">Y</td>
-                    <td class="pronunciation">ipsilon, i greca</td>
-                </tr>
-                <tr>
-                    <td class="letter">B</td>
-                    <td class="pronunciation">bi</td>
-                    <td class="letter">N</td>
-                    <td class="pronunciation">ènné</td>
-                    <td class="letter">Z</td>
-                    <td class="pronunciation">dzèta</td>
-                </tr>
-                <tr>
-                    <td class="letter">C</td>
-                    <td class="pronunciation">tchi</td>
-                    <td class="letter">O</td>
-                    <td class="pronunciation">o</td>
-                    <td class="letter">J</td>
-                    <td class="pronunciation">i lunga</td>
-                </tr>
-                <tr>
-                    <td class="letter">D</td>
-                    <td class="pronunciation">di</td>
-                    <td class="letter">P</td>
-                    <td class="pronunciation">pi</td>
-                    <td class="letter">K</td>
-                    <td class="pronunciation">cappa</td>
-                </tr>
-                <tr>
-                    <td class="letter">E</td>
-                    <td class="pronunciation">é</td>
-                    <td class="letter">Q</td>
-                    <td class="pronunciation">cou</td>
-                    <td class="letter">W</td>
-                    <td class="pronunciation">doppia vi (ou) vou</td>
-                </tr>
-                <tr>
-                    <td class="letter">F</td>
-                    <td class="pronunciation">èffé</td>
-                    <td class="letter">R</td>
-                    <td class="pronunciation">èrré</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td class="letter">G</td>
-                    <td class="pronunciation">dji</td>
-                    <td class="letter">S</td>
-                    <td class="pronunciation">èssé</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td class="letter">H</td>
-                    <td class="pronunciation">acca</td>
-                    <td class="letter">T</td>
-                    <td class="pronunciation">ti</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td class="letter">I</td>
-                    <td class="pronunciation">i</td>
-                    <td class="letter">U</td>
-                    <td class="pronunciation">ou</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td class="letter">L</td>
-                    <td class="pronunciation">èllé</td>
-                    <td class="letter">V</td>
-                    <td class="pronunciation">vi (ou) vou</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-
-
+      <div class="col-md-6">
+        <!-- Item 4 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed bg-success text-light" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse4" aria-expanded="false" aria-controls="flush-collapse4">
+              <h5>Accordion Item #4</h5>
+            </button>
+          </h2>
+          <div id="flush-collapse4" class="accordion-collapse collapse" data-bs-parent="#accordionUnique">
+            <div class="accordion-body">Contenu item 4</div>
+          </div>
+        </div>
+        <!-- Item 5 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed bg-success text-light" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse5" aria-expanded="false" aria-controls="flush-collapse5">
+              <h5>Accordion Item #5</h5>
+            </button>
+          </h2>
+          <div id="flush-collapse5" class="accordion-collapse collapse" data-bs-parent="#accordionUnique">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+          </div>
+        </div>
+        <!-- Item 6 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed bg-success text-light" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse6" aria-expanded="false" aria-controls="flush-collapse6">
+              <h5>Accordion Item #6</h5>
+            </button>
+          </h2>
+          <div id="flush-collapse6" class="accordion-collapse collapse" data-bs-parent="#accordionUnique">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-        Accordion Item #2
-      </button>
-    </h2>
-    <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item’s accordion body. Let’s imagine this being filled with some actual content.</div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-        Accordion Item #3
-      </button>
-    </h2>
-    <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item’s accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
     </div>
   </div>
 </div>
-    </div>
 
-    <div class="col-md-6">
-<div class="accordion accordion-flush" id="accordionFlushExample">
-  <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse4" aria-expanded="false" aria-controls="flush-collapse4">
-        Accordion Item #4
-      </button>
-    </h2>
-    <div id="flush-collapse4" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item’s accordion body.</div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse5" aria-expanded="false" aria-controls="flush-collapse5">
-        Accordion Item #2
-      </button>
-    </h2>
-    <div id="flush-collapse5" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item’s accordion body. Let’s imagine this being filled with some actual content.</div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse6" aria-expanded="false" aria-controls="flush-collapse6">
-        Accordion Item #3
-      </button>
-    </h2>
-    <div id="flush-collapse6" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item’s accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
-    </div>
-  </div>
-</div>    </div>
-  </div>
-
-</div>
-
-    <!-- Bootstrap JS (optionnel) -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js">
-    </script>
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js">
+</script>
 </body>
 </html>
