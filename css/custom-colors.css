@@ -1,0 +1,79 @@
+/* custom-colors.css - Couleurs personnalisées pour Bootstrap */
+
+/* Violet */
+.btn-outline-violet {
+    --bs-btn-color: #6f42c1;
+    --bs-btn-border-color: #6f42c1;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #6f42c1;
+    --bs-btn-hover-border-color: #6f42c1;
+    --bs-btn-focus-shadow-rgb: 111, 66, 193;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #6f42c1;
+    --bs-btn-active-border-color: #6f42c1;
+}
+
+/* Rose */
+.btn-outline-rose {
+    --bs-btn-color: #d63384;
+    --bs-btn-border-color: #d63384;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #d63384;
+    --bs-btn-hover-border-color: #d63384;
+    --bs-btn-focus-shadow-rgb: 214, 51, 132;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #d63384;
+    --bs-btn-active-border-color: #d63384;
+}
+
+/* Orange */
+.btn-outline-orange {
+    --bs-btn-color: #fd7e14;
+    --bs-btn-border-color: #fd7e14;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #fd7e14;
+    --bs-btn-hover-border-color: #fd7e14;
+    --bs-btn-focus-shadow-rgb: 253, 126, 20;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #fd7e14;
+    --bs-btn-active-border-color: #fd7e14;
+}
+
+/* Turquoise */
+.btn-outline-turquoise {
+    --bs-btn-color: #20c997;
+    --bs-btn-border-color: #20c997;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #20c997;
+    --bs-btn-hover-border-color: #20c997;
+    --bs-btn-focus-shadow-rgb: 32, 201, 151;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #20c997;
+    --bs-btn-active-border-color: #20c997;
+}
+
+/* Marron */
+.btn-outline-brown {
+    --bs-btn-color: #8B4513;
+    --bs-btn-border-color: #8B4513;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #8B4513;
+    --bs-btn-hover-border-color: #8B4513;
+    --bs-btn-focus-shadow-rgb: 139, 69, 19;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #8B4513;
+    --bs-btn-active-border-color: #8B4513;
+}
+
+/* Oro */
+.btn-outline-gold {
+    --bs-btn-color: #FFD700;
+    --bs-btn-border-color: #FFD700;
+    --bs-btn-hover-color: #000;
+    --bs-btn-hover-bg: #FFD700;
+    --bs-btn-hover-border-color: #FFD700;
+    --bs-btn-focus-shadow-rgb: 255, 215, 0;
+    --bs-btn-active-color: #000;
+    --bs-btn-active-bg: #FFD700;
+    --bs-btn-active-border-color: #FFD700;
+}
